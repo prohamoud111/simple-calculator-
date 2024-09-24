@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>simple calculator</h1>
+    <div class="calc">
+      <h3 id="result">0</h3>
+      <div class="container">
+        <div class="userinput">
+          <input
+            type="text"
+            placeholder="0"
+            id="num1"
+            style="margin-bottom: 10px"
+          />
+          <input type="text" placeholder="0" id="num2" />
+        </div>
+        <div class="userbuttons">
+          <button onclick="add()">add</button>
+          <button onclick="subtract()">subtract</button>
+          <button onclick="mutiply()">mutiply</button>
+          <button onclick="Divided()">Divided</button>
+          <button onclick="SQUAREROOT()">SQUARE ROOT</button>
+          <button onclick="POWER()">POWER</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
